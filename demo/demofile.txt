@@ -1,0 +1,31 @@
+./project int demo/replace.c
+./project -n int demo/replace.c
+./project -no int demo/replace.c
+./project -i INT demo/replace.c
+./project -vn int demo/replace.c
+./project -nv int demo/replace.c
+./project -q int demo/replace.c
+./project -E cha+r demo/replace.c
+./project -E cha?r demo/replace.c
+./project -G int demo/replace.c
+./project -nH int demo/replace.c
+./project -in INt demo/replace.c
+./project -m 4 int demo/replace.c
+./project -A 4 int demo/replace.c
+./project -r int .
+./project [abcd] demo/replace.c
+./project [a-d] demo/replace.c
+./project ^int demo/replace.c
+./project -n -H int demo/replace.c
+./project -n -i INt demo/replace.c
+./project -c -v int demo/replace.c
+./project -v -i INt demo/replace.c
+./project -c -H int demo/replace.c
+./project .nt. demo/replace.c
+./project nt. demo/replace.c
+./project .nt demo/replace.c
+./project -l int demo/replace.c demo/test.c
+./project -l fg demo/replace.c demo/test.c
+./project -L fg demo/replace.c demo/test.c
+./project ar$ demo/replace.c
+./project -l int demo/replace.c
